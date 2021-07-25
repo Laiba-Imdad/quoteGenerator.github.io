@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/b6f28a30db.js" crossorigin="anonymous"></script>    
+    <link rel="stylesheet" href="style.css">
+    <title>Quote Generator</title>
+</head>
+
+<body>
+    <div id="container">
+        <h1 id="heading">Inspirational Quote</h1>
+        <blockquote>
+            <i class="fas fa-quote-left"></i>
+            <br />
+            <br />
+            <span id="quote"></span>
+            <div id="animation">
+                <div id="dot1"></div>
+                <div id="dot2"></div>
+                <div id="dot3"></div>
+            </div>
+            <span id="author"></span>
+            <button onclick="quoteLoader()" type="button" id="btn">New Quote</button>
+        </blockquote>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
